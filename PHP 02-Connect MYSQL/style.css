@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #111;
+  background-color: #eeeeee;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+form fieldset {
+  border: 1px solid rgba(44,44,44,.25);
+}
+form legend {
+  font-size: 20px;
+  color: rgba(44,44,44,.75);
+}
+form input {
+  display: block;
+  border: 1px solid rgba(44,44,44,.15);
+  border-radius: 9;
+  font-size: 14px;
+  color: rgba(44,44,44,.75);
+}
+form input:focus {
+  background-color: rgba(105, 255, 125, 0.5);
+}
+form input#age {
+  margin-bottom: 14px;
+  width: 100%;
+}
+form input#first_name {
+  margin-bottom: 14px;
+  width: 100%;
+}
+form input#last_name {
+  margin-bottom: 14px;
+  width: 100%;
+}
+form input#email {
+  margin-bottom: 14px;
+  width: 100%;
+}
+form input#address {
+  margin-bottom: 14px;
+  width: 100%;
+}
+form input#newsletter {
+  display: inline;
+  margin-bottom: 14px;;
+}
+form span {
+  font-size: 14px;
+  margin-left: 6px;
+  text-decoration: underline;
+  font-style: italic;
+  color: #ffa826;
+}
+form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+form input.submit {
+  border: none;
+  background-color: rgb(105, 255, 125);
+  color: #444;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 14px;
+  box-shadow: 4px 2px 6px #999;
+  transition: .2s ease;
+}
+form input.submit:hover {
+   background-color: rgba(105,255,125,.70);
+   color: rgba(111,111,111,.70);
+}
+form input.submit:active {
+  box-shadow: none;
+}
