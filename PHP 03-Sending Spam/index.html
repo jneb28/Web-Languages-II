@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>01-Send Email</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+
+    <form action="main.php" method="POST">
+      <fieldset>
+      <legend>Sign up</legend>
+      <label for="first_name">First Name</label>
+      <input type="text" name="first-name" value="" id="first_name">
+
+      <label for="last_name">Last Name</label>
+      <input type="text" name="last-name" value="" id="last_name">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" value="" id="email">
+
+      <label for="newsletter">Newsletter</label>
+      <input type="checkbox" name="newsletter" value="true" id="newsletter"><span>Sign up for our newsletter!</span>
+      </fieldset>
+
+      <input class="submit" type="submit" name="submit" value="Send">
+    </form>
+
+
+    <form action="send.php" method="POST" class="send-form">
+      <fieldset>
+      <legend>Create Newsletter</legend>
+      <label for="subject">Subject</label>
+      <input type="text" name="subject" value="" id="subject">
+
+      <label for="message">Message</label>
+      <textarea name="message" rows="7" cols="80" id="message"></textarea>
+      </fieldset>
+
+      <input class="submit" type="submit" name="submit" value="Send">
+    </form>
+
+  </body>
+</html>
