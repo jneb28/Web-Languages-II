@@ -1,12 +1,8 @@
 <?php
-error_reporting(-1);
-ini_set('display_errors', 'On');
-set_error_handler("var_dump");
-
-$db = "jnebulaDB";
+$db = "joshuane_jnebulaDB";
 $server = "localhost";
-$user = "jnebula";
-$pass = "Gr00vym0ve7!";
+$user = "joshuane_beker";
+$pass = "pottop77";
 $con = mysqli_connect($server, $user, $pass, $db);
 if($con->connect_errno) {
   echo $con->connect_error;
@@ -14,7 +10,7 @@ if($con->connect_errno) {
 
 $query = "SELECT Email FROM News WHERE Newsletter = 'true'";
 if(!mysqli_error($con)) {
-  $result = mysqli_query($con, $query);
+  $result = $con->query($query);
 } else {
   echo mysqli_error($con);
 }
@@ -25,6 +21,7 @@ $header = "From: jnebeker91@gmail.com";
 
 while($row = mysqli_fetch_assoc($result)) {
   $email = $row['Email'];
+  echo $email ."\n". $subject ."\n". $message ."\n". $header;
   if(mail($email, $subject, $message, $header)) {
     echo "Newsletter sent to $email <br>";
   } else {
