@@ -1,0 +1,122 @@
+body {
+  background-color: #f4f4f4;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+h1.invalid-login {
+  color: red;
+}
+p.no-results {
+  color: rgb(65, 200, 95);
+  text-decoration: underline;
+}
+div.border {
+  border-bottom: 1px dashed #666;
+  padding-bottom: 22px;
+}
+div.approve {
+  background-color: #eee;
+  padding: 20px 100px;
+}
+div.approve h3.user {
+  color: rgb(77, 77, 77);
+  margin-right: 60px;
+}
+div.approve p.comment {
+  color: rgb(77, 77, 77);
+  font-style: italic;
+}
+div.approve p.date {
+  font-size: 12px;
+  text-align: right;
+  color: rgb(115, 115, 115);
+  text-decoration: underline;
+}
+div a.approve-link, a.decline-link {
+  text-decoration: none;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  padding: 3px 8px;
+  border-radius: 7px;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+div a.approve-link:hover, a.decline-link:hover {
+  opacity: .7;
+}
+div a.approve-link {
+  background-color: rgb(105, 255, 125);
+}
+div a.decline-link {
+  background-color: rgb(255, 125, 105);
+}
+nav {
+  background-color: #eee;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 12px;
+  transition: .2s ease;
+}
+nav ul li a:hover {
+  color: rgba(150, 150, 150, .5);
+}
+nav ul li a.active {
+  color: rgb(65, 200, 95);
+  text-decoration: underline;
+}
+form fieldset {
+  border: 1px solid rgb(125, 125, 125);
+}
+form legend {
+  color: rgb(77, 77, 77);
+}
+form input, textarea {
+  display: block;
+  font-size: 16px;
+  justify-self: start;
+  border: 1px solid rgba(150, 150, 150, .3);
+}
+form input:focus, textarea:focus {
+  background-color: rgba(105, 255, 125, 0.5);
+}
+form label {
+  font-size: 12px;
+  color: rgb(99, 99, 99);
+}
+form input.submit {
+  padding: 8px 16px;
+  border: none;
+  margin-top: 12px;
+  justify-self: start;
+  font-size: 14px;
+  background-color: rgb(105, 255, 125);
+  color: rgb(99, 99, 99);
+  box-shadow: 4px 2px 6px rgba(99, 99, 99, .3);
+  transition: .3s ease;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+form input.submit:hover {
+  background-color: rgba(105, 255, 125, 0.5);
+}
+form input.submit:active {
+  background-color: rgba(105, 255, 125, 0.5);
+  box-shadow: none;
+}
