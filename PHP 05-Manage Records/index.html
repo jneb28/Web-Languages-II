@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>05-Manage Records</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Add</a></li>
+        <li><a href="view.php">View</a></li>
+        <li><a href="remove.php">Remove</a></li>
+      </ul>
+    </nav>
+    <form action="add.php" method="POST" enctype="multipart/form-data">
+      <fieldset>
+      <legend>Add Employee</legend>
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" value="" id="first-name">
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" value="" id="last-name">
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" value="" id="age">
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" value="" id="email">
+
+      <label for="photo">Photo:</label>
+      <input type="file" name="file" value="" id="photo">
+      </fieldset>
+      <input class="add" type="submit" name="submit" value="Add">
+    </form>
+
+  </body>
+</html>

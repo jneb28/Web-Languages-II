@@ -1,0 +1,112 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #111;
+  background-color: #eeeeee;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+nav {
+  background-color: rgba(44,44,44,.25);
+
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+}
+nav ul li {
+  padding: 0 7px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #333;
+}
+nav ul li a.active {
+  color: #eee;
+  text-decoration: underline;
+}
+form {
+  justify-self: center;
+}
+form fieldset {
+  border: 1px solid rgba(44,44,44,.25);
+  margin-bottom: 14px;
+}
+form legend {
+  font-size: 20px;
+  color: rgba(44,44,44,.75);
+}
+form input {
+  display: block;
+  border: 1px solid rgba(44,44,44,.15);
+  border-radius: 9;
+  font-size: 14px;
+  color: rgba(44,44,44,.75);
+  margin-right: 8px;
+  margin-bottom: 14px;
+}
+form input:focus {
+  background-color: rgba(105, 255, 125, 0.5);
+}
+form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+form input.add {
+  border: none;
+  background-color: rgb(105, 255, 125);
+  color: #444;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 14px;
+  box-shadow: 4px 2px 6px #999;
+  transition: .2s ease;
+}
+form input.add:hover {
+   background-color: rgba(105,255,125,.70);
+   color: rgba(111,111,111,.70);
+}
+form input.add:active {
+  box-shadow: none;
+}
+form input.remove {
+  border: none;
+  background-color: rgb(255, 125, 105);
+  color: #444;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 14px;
+  box-shadow: 4px 2px 6px #999;
+  transition: .2s ease;
+}
+form input.remove:hover {
+   background-color: rgba(255, 125, 105, .70);
+   color: rgba(111,111,111,.70);
+}
+form input.remove:active {
+  box-shadow: none;
+}
+form a.add {
+  border: none;
+  background-color: rgb(105, 255, 125);
+  text-decoration: none;
+  color: #444;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 14px;
+  box-shadow: 4px 2px 6px #999;
+  transition: .2s ease;
+}
+form a.add:hover {
+   background-color: rgba(105, 255, 125, .70);
+   color: rgba(111,111,111,.70);
+}
+form a.add:active {
+  box-shadow: none;
+}
