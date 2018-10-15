@@ -1,0 +1,122 @@
+body {
+  height: 100%;
+}
+.container {
+  background-color: #f7f7f7;
+  padding: 0;
+}
+nav {
+  height: 75px;
+  background-color: #555555; /*#e9ecef*/
+  margin-bottom: 26px;
+}
+nav h1.title {
+  padding-left: 1rem;
+  color: #f7f7f7;
+  font-size: 42px;
+  margin-bottom: 0;
+}
+nav .nav-item .nav-link {
+  font-size: 18px;
+  color: #f7f7f7;
+  padding-bottom: 0;
+}
+.jumbotron {
+  background-color: #dddddd;
+  min-height: 333px;
+  margin-bottom: 0;
+
+}
+.jumbotron .contact-btn {
+  background-color: #555555;
+  padding: 5px 25px;
+  color: #f7f7f7;
+  font-size: 21px;
+  margin-top: 1
+}
+.jumbotron h1 {
+  font-size: 64px;
+  color: #555555;
+}
+.jumbotron p.lead {
+  color: #555555;
+  font-size: 24px;
+}
+.jumbotron h2 {
+  font-size: 32px;
+  color: #555555;
+  margin-bottom: 13px;
+}
+
+h2.who {
+  font-size: 32px;
+  color: #555555;
+}
+.card {
+  justify-content: space-around;
+  background-color: #555555;
+  min-height: 175px;
+}
+.card-title {
+  color: #f7f7f7;
+  margin-bottom: 0;
+}
+main {
+  margin: 106px 30px;
+}
+main .who {
+  margin-bottom: 30px;
+}
+footer {
+  background-color: #555555;
+  height: 103px;
+}
+footer h1 {
+  font-size: 16px;
+  color: rgba(247, 247, 247, .5);
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+footer .nav-item .nav-link {
+  font-size: 16px;
+  color: rgba(247, 247, 247, .5);
+  padding-top: 0;
+}
+
+
+
+.form-heading {
+  color: #555555;
+}
+form button {
+  margin-top: 30px;
+}
+form label {
+  color: #777777;
+}
+
+
+
+button a {
+  color: #f7f7f7;
+}
+button a:hover {
+  color: #f7f7f7;
+}
+.dashboard {
+  color: #555555;
+  margin-left: 1rem;
+  margin-bottom: 30px;
+}
+
+
+ul.list-group {
+  overflow: hidden;
+}
+
+ul.list-group li.photo-item {
+  width: 100%;
+}
+ul.list-group li.photo-item img {
+  width: 100%;
+}
