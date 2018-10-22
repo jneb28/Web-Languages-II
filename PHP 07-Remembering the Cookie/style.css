@@ -1,0 +1,179 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    background-color: #f7f7f7;
+    max-width: 1200px;
+    margin: auto;
+}
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    width: 100%;
+}
+header h1 a {
+    color: #f7f7f7;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #f7f7f7;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+nav ul li a:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+nav ul li.active {
+    text-decoration: underline;
+    color: #f7f7f7;
+}
+
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+main .hero-img {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("baking.jpg");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .hero-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f7;
+    font-size: 48px;
+}
+main .box1 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    margin: 30px 12px 30px 0;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("girl.jpg");
+    height: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .box2 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    margin: 30px 12px 30px 0; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("chili.jpg");
+    height: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .box3 {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    margin: 30px 12px 30px 0; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("cheerful.jpg");
+    height: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .box4 {
+    grid-row: 2 / span 1;
+    grid-column: 4 / span 1;
+    margin: 30px 0 30px 0; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("business.jpg");
+    height: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .txt {
+    display: flex;
+    justify-content: center;
+    color: #f7f7f7;
+    font-size: 18px;
+}
+
+
+
+
+main form {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 4;
+    margin: 30px auto;
+}
+
+main form input {
+    display: block;
+    margin-bottom: 6px;
+}
+
+main form label {
+    margin-top: 6px;
+}
+
+main form input#submit {
+    margin-top: 15px;
+}
+
+main form p.info {
+    color: #ff1111;
+    font-size: 18px;
+}
+
+main form p.success {
+    color: #1111ff;
+    font-size: 18px;
+}
+
+main table {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 4;
+    margin: 30px auto;
+}
+
+main table tr {
+    text-align: left;
+}
+
+main table tr td {
+    padding-right: 20px;
+    text-align: left;
+}
+
+
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    color: #f7f7f7;
+    padding: 15px 0;
+}
+footer p {
+    margin: 0 12px;
+}
