@@ -1,0 +1,51 @@
+body {
+  background-color: #222;
+  color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+
+main {
+  padding: 0 10px;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+ul li {
+  padding: 0 10px;
+  
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+}
+
+
+input, select {
+  margin-right: 30px; 
+}
+label {
+  margin-right: 5px;
+}
+
+
+table {
+  margin-top: 15px;
+}
+th {
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+}
+td {
+  padding: 15px;
+}
+
+span {
+  color: rgb(122, 206, 106);
+}
