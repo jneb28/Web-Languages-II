@@ -1,0 +1,98 @@
+body {
+  background-color: #222;
+  color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+
+main {
+  padding: 0 10px;
+}
+main h1 {
+  margin-bottom: 0;
+}
+
+
+div {
+  margin: 15px 30px;
+  width: auto;
+}
+div:first-child {
+  margin-left: 0px;
+}
+div:last-child {
+  margin-right: 0px;
+}
+div.movies {
+  display: flex;
+  margin-left: 0;
+  margin-top: 0;
+}
+div.movies h2 {
+  margin-top: 0;
+}
+div.movies a {
+  text-decoration: none;
+  background-color: #999;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: black;
+}
+div.movies a:hover {
+  background-color: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+ul li {
+  padding: 0 10px;
+  
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+}
+
+
+
+input, select {
+  margin-right: 30px; 
+}
+input[type="submit"] {
+  display: block;
+  margin-top: 30px;
+  border: none;
+  background-color: #999;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  background-color: #eee;
+}
+label {
+  display: block;
+  margin-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+table {
+  margin-top: 15px;
+}
+th {
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+}
+td {
+  padding: 15px;
+}
+
+span {
+  color: rgb(122, 206, 106);
+}
