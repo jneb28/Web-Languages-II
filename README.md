@@ -1,2 +1,2 @@
-# Web-Languages-II
-DGM 3760
+# josh-php
+### php examples covering crud operations, authentication, and more
